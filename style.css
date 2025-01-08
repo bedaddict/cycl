@@ -1,0 +1,103 @@
+/* styles.css */
+
+/* Reset dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5; /* Warna latar belakang */
+    color: #333; /* Warna teks */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+  
+.container {
+    background-color: #fff; /* Warna putih untuk form */
+    padding: 30px;
+    border-radius: 10px; /* Sudut membulat */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Bayangan */
+    width: 100%;
+    max-width: 400px; /* Maksimal lebar */
+    text-align: center;
+}
+  
+h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #c90076; /* Warna utama */
+}
+  
+form {
+    text-align: left;
+}
+  
+label {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+}
+  
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+}
+  
+input:focus {
+    outline: none;
+    border-color: #c90076; /* Warna fokus */
+    box-shadow: 0 0 5px rgba(201, 0, 118, 0.5); /* Efek fokus */
+}
+  
+button {
+    width: 100%;
+    background-color: #c90076; /* Warna tombol */
+    color: white; /* Warna teks tombol */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+  
+button:hover {
+    background-color: #a8005f; /* Warna tombol saat hover */
+}
+  
+.signup-link {
+    margin-top: 20px;
+    display: block;
+    font-size: 14px;
+    color: #0066cc;
+    text-decoration: none;
+}
+  
+.signup-link:hover {
+    text-decoration: underline;
+    color: #003366; /* Warna link saat hover */
+}
+  
+@media (max-width: 480px) {
+    .container {
+        padding: 20px;
+    }
+  
+    h2 {
+        font-size: 20px;
+    }
+  
+    button {
+        font-size: 14px;
+    }
+}
